@@ -5,4 +5,4 @@
 
 * ##### If you just want to test the application out, then please download the mindFest.apk file and install it in your smartphone.<br/> Hope you like it. 
 
-> Laanguages Used: Java, XML
+> Languages Used: Java, XML
