@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">mindFest</string>
+    <string name="score_counter">Your Score:</string>
+    <string name="buttonA">A</string>
+    <string name="buttonB">B</string>
+    <string name="buttonC">C</string>
+    <string name="buttonD">D</string>
+    <string name="prev_button">Previous Image</string>
+    <string name="next_button">NEXT</string>
+    <string name="resetButton">!! RESET !!</string>
+    <string name="judgementToast">Hint used! You won\'t receive any score</string>
+    <string name="correct_toast">Nice! That\'s Correct.</string>
+    <string name="incorrect_toast">Incorrect :(</string>
+    <string name="hintButton">Show HINT!</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sohansgithub.mindfest.HomeActivity"
+    android:background="@drawable/display_background">
+
+    <TextView
+        android:id="@+id/score_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:padding="30dp"
+        android:text="@string/score_counter"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <ImageSwitcher
+        android:id="@+id/displayQuestion"
+        android:layout_width="290dp"
+        android:layout_height="270dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="120dp" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#e35f36"
+        android:text="@string/buttonA" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#e35f36"
+        android:text="@string/buttonB" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="195dp"
+        android:backgroundTint="#e35f36"
+        android:text="@string/buttonC" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="195dp"
+        android:backgroundTint="#e35f36"
+        android:text="@string/buttonD" />
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="145dp"
+        android:textColor="#5eba07"
+        android:backgroundTint="#2d5c01"
+        android:text="@string/resetButton" />
+
+    <ImageButton
+        android:id="@+id/prevButton"
+        android:contentDescription="@string/prev_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/prev_icon"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/white"
+
+        />
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:contentDescription="@string/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next_icon"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="345dp"
+        android:backgroundTint="@color/white"
+
+        />
+
+
+    <ImageButton
+        android:id="@+id/hintButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hint_button"
+        android:layout_marginTop="465dp"
+        android:layout_marginLeft="310dp"
+        android:backgroundTint="@color/white"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
